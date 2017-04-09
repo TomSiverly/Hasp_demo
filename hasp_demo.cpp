@@ -37,7 +37,7 @@ printf("linux_ling\n");
     struct ifreq ifreq;
     int sock = 0;
     char mac[32] = "";
-	char *mac_string="enp3s0";
+	char *mac_string="enp3s0";//or change your real macaddress name such as eth0
 
        unsigned long s1,s2,s3,s4;
      char string[128];
