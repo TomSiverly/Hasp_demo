@@ -130,7 +130,7 @@ printf("linux_ling\n");
     fp=fopen("registor_m.dat","w");
    		char b[]={'H','e','l','l','o','\0'};
    		int m=sizeof(b);
-		int c[]={2,4,5,6,3,1,8,7,8,9};
+		int c[]={9,4,5,6,3,1,8,7,8,2};
 
 		for(int i=0;i<strlen(mac);i++){
 		  fprintf(fp,"%d",mac[i]+c[i%10]*10000+c[9-i%10]*100000);
